@@ -1,0 +1,3 @@
+Render deployment configuration is included in render.yaml. Connect the repository to Render using New > Blueprint. The relay runs as a free Node.js web service from server/ and exposes /health. After deployment, paste the service's https://...onrender.com URL into the Android app; the app upgrades it to wss:// automatically. See README_SI.md for instructions and free-tier limitations.
+
+APK builds are debug-signed. Build using Android Studio or ./gradlew assembleDebug with the Android SDK installed.
